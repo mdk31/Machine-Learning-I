@@ -1,0 +1,5 @@
+Model,Negative Mean Squared Error,Mean Squared Error,R^2 Score,Parameters
+SVR,-0.01862018464553486,0.02033595416598884,0.6026318490739451,"{'C': 2, 'epsilon': 0.1, 'kernel': 'linear'}"
+DTR,-0.035909460965769815,0.038223973797162566,0.2530967730922846,"{'max_depth': 10, 'max_features': 'auto'}"
+RFR,-0.018140418180101002,0.018742749060675502,0.6337633593820835,"{'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'n_estimators': 190}"
+MLP,-0.01802656077380439,0.012990412111710646,0.7637451291332812,"{'mlp__activation': 'relu', 'mlp__hidden_layer_sizes': (51, 51, 51, 51)}"
